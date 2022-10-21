@@ -4,26 +4,118 @@
     background-image: url(background2.jpg);
     margin:0;
 }
-
+.carousel-item{
+    background-color: rgba(0,0,0,0.1);
+    border-radius:2rem;
+    padding-top:1rem;
+    padding-bottom:2rem;
+}
+.categories{
+    color: white;
+    text-decoration: underline;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    padding-bottom: 2rem;
+   
+}
+.col-lg-6.memory{
+    /* padding-left:22rem; */
+    padding-bottom:2rem;
+    /* padding-right: 8rem; */
+}
+.row.testcase .col-lg-6 p{
+    padding-right: 2rem;
+}
+p.memory{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right:2rem;
+}
+img.memory{
+    border-radius: 1rem;
+    
+}
+.img-bg{
+    background-color: black;
+    border-radius: 1rem;
+    
+    height: 15rem;
+}
+h3{ 
+    padding-top: 3rem;
+    color: white;
+    font-family: 'Kanit';
+}
+h2{
+    color: white;
+    /* text-decoration: underline; */
+}
+.row.testcase{
+    padding-top:3rem;
+    padding-bottom:3rem;
+   
+}
+.col-lg-6.left p,.col-lg-6.left h3{
+    padding-left:2rem;
+}
+.col-lg-6.test p{
+    padding-left: 0.3rem;
+}
+.col-lg-6.right.img{
+    padding-left:0.3rem;
+}
+.col-lg-6.img{
+    padding-left: 2rem;
+}
+.analysis{
+    position:relative; left:0.8rem;
+    top:1rem;
+}
+.col-lg-12.sub{
+    padding-left: 2rem;
+}
 #task1{
     background-image: url(background1.jpg);
     height: fit-content;
    
 }
+
+table{
+    background-color: rgba(47, 89, 103,0.8);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top:2rem;
+    margin-bottom:2rem !important;
+}
+.col-lg-12.head,.col-lg-12.sub{
+    text-align: center;
+}
 .col-lg-8.task1{
     text-align: center;
+}
+.row.carousel{
+   
+    padding-bottom:3rem;
+}
+button.test{
+    padding-top: 2rem;
+    height:2rem;
+}
+button.test.prev{
+    right: 5rem;
+    position: absolute
 }
 .row.task1{
     display: flex;
     align-items: center;
     padding-bottom: 5rem;
 }
-.carousel-item{
+#Tasks .carousel-item{
     padding-left: 12rem;
     padding-right: 12rem;
     padding-bottom: 5rem;
     padding-top: 5rem;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0,0.0);
     border-radius: 2rem;
 }
 .subhead{
