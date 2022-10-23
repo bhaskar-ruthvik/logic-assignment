@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task 5</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Lora:wght@700&family=Montserrat:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <div class="container-fluid" id="task1">
+        <div class="row task1">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 task1">
+                <h1 class="subhead">Task 5</h1>
+                <p>This task involves evaluating the truth value of the propositional expression given the truth values of the individual atoms. First we loop through the string and add the unique propositional atoms to an array that contains the atoms. Next we enter a loop and ask the user for the truth values of the propositional atoms that we discovered in the previous function. Upon providing the truth values we compute the truth value recursively by travelling to the left most propositional atom and start evaluating in pairs of parent,left child and right child or parent and right child depending on whether the parent operator is a negation or not. Here we also use an integer len variable which makes the looping more efficient. Since the size of the array is very large it is redundant to loop through the entire array when there are no valid propositional atoms in those indices. Therefore, the len variables helps in this so we can exit the for loop once we have looped through the number of propositional atoms found.</p>
+            </div>
+         
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/task5.png" />
+            </div>
+            <div class="col-lg-3"></div>
+
+        </div>
+    </div>
+</body>
+</html>

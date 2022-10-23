@@ -4,15 +4,12 @@
 
 /// A function that combines all the previous functions to run the tasks in the required order
 void LogicAssignment(){
-std::string name;
+std::string infix;
     std::cout<< "This test was done on an AMD Ryzen 7 5800HS CPU and NVIDIA GTX1650 GPU"<<std::endl;
     std::cout<< "Enter a propositional statement in infix form: "<<std::endl;
-    std::getline(std::cin,name);
-
-    //using chrono to calculate execution time
-    // auto start = std::chrono::high_resolution_clock::now(); 
+    std::getline(std::cin,infix);
   
-    std::string prefix = PrefixConverter(name);
+    std::string prefix = PrefixConverter(infix);
     std::cout<< "The prefix form of the statement is: "<< prefix << std::endl;
   
     AddToBinaryTree(prefix);
@@ -21,7 +18,7 @@ std::string name;
 
     std::cout<< "\nThe height of the parse tree is equal to: "<< FindTreeHeight(root)<<std::endl;
     
-    FindPropositionalAtoms(name);
+    FindPropositionalAtoms(infix);
     std::cout<< "Enter the truth value for the proposition: "<<std::endl;
     AssignTruthValues();
 

@@ -20,7 +20,7 @@
 }
 
 #nav-tree .selected {
-  background-image: url('tab_a.png');
+  /* background-image: url('tab_a.png'); */
   background-repeat:repeat-x;
   color: var(--nav-text-active-color);
   text-shadow: var(--nav-text-active-shadow);

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Time Analysis</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Lora:wght@700&family=Montserrat:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <div class="container-fluid" id="task1">
+        <div class="row task1">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 task1">
+                <h1 class="subhead">Time Analysis of Code</h1>
+                <p>The following tests were performed on an M1 Apple Macbook Air with 8GB RAM and 256GB Storage. The IDE used for these tests is Visual Studio 2022 for Mac. The outputs produced were recorded and the results attached below are the findings of the analysis. The variables in this were No of unique propositional atoms, The height of the parse tree and the time taken for the execution in millseconds. In order to make this a fairer analysis the truth values were kept constant with all being assigned to 1 as changing the truth values leads to different times as seen in the output testing done previously. This data was recorded in a csv file and was analysed in a jupyter notebook attached in the analysis folder.</p>
+            </div>
+         
+        </div>
+        <div class="row">
+            <div class="col-lg-12 head">
+        
+                <h2>The table of recordings:</h1>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/timestats.png" />
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 head">
+        
+                <h2>Some graphs that depict the relations between the chosen variables: </h2>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/timecount.png" />
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-12 head"><p>This is a countplot showing the counts of the time readings we have obtained. We can see that most of the readings obtained are around 0.1ms followed by 0.3ms. The mean time(ms) obtained for all the readings has been calculated as 0.26ms.</p></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/timeheight.png" />
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-12 head"><p>This is a scatterplot between the height of the tree and the time taken for execution. We can clearly see that there is a trend of direct proportionality between the two variables. As we can draw a line of bestfit that covers many values at once.</p></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/corrheatmaptime.png" />
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-12 head"><p>This is a heatmap with the correlation between each of the time variables. As we could observe from the graph te correlation between height of the parse tree and Time in ms is 0.88 which is a very high correlation. Surprisingly, the correlation between Number of unique propositional atoms and height of the tree is not very high. This is because as we have seen in the readings table the number of unique propositional atoms can be few but if the same atoms are repeated again and again the height of the tree increases drastically. Due to the same reason the correlation between time and the number of unique propositional atoms is also not very strong. </p></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/3dtime.png" />
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-12 head"><p>If we notice the trend with fixed height and no of unique propositional atom values we can clearly see that the scatterplot has an upward trend showing there is atleast a good amount of correlation between all 3 variables together.</p></div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

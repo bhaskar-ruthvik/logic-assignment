@@ -1,0 +1,12 @@
+<map id="PrefixConverter" name="PrefixConverter">
+<area shape="rect" id="node1" title="Converting the postfix expression into prefix form of the original string by reversing the final stri..." alt="" coords="5,276,115,301"/>
+<area shape="rect" id="node2" href="$_task1_8h.html#abbc02306ae3b82787cd37e5761a532c9" title=" " alt="" coords="163,203,279,228"/>
+<area shape="rect" id="node9" href="$_task1_8h.html#a44b59563f59a31e6566d828ff7478069" title="Reversing the string that was input by the user." alt="" coords="327,351,467,376"/>
+<area shape="rect" id="node3" href="$_task1_8h.html#a4d09810f31d7aeac2b271c79cbb9b36f" title="Declaring the precedence of operators by which conversions take place." alt="" coords="333,5,461,31"/>
+<area shape="rect" id="node4" href="$class_stack.html#aba249558cb22b37512c83b62651a1708" title=" " alt="" coords="347,55,447,80"/>
+<area shape="rect" id="node5" href="$_task2_8h.html#a23c8a67bbba4acbc00d3114e328d3285" title="Checking if a given character is an Operator." alt="" coords="356,104,439,129"/>
+<area shape="rect" id="node6" href="$class_stack.html#a501d00c8712dcb7caad0c89dcabc76ef" title=" " alt="" coords="355,153,440,179"/>
+<area shape="rect" id="node7" href="$class_stack.html#a4972dd756e2e349e1e6574e4cfed4185" title=" " alt="" coords="351,203,443,228"/>
+<area shape="rect" id="node8" href="$_task1_8h.html#a09e2fdf5cb40bfccb9fe1e279bc0c82b" title="Removing parentheses as they lose significance in infix,prefix,postfix forms." alt="" coords="327,252,468,277"/>
+<area shape="rect" id="node10" href="$class_stack.html#ac32e55ad7c8e3fb80390c116397d8395" title=" " alt="" coords="356,301,439,327"/>
+</map>

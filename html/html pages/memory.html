@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Memory Analysis</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Lora:wght@700&family=Montserrat:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <div class="container-fluid" id="task1">
+        <div class="row task1">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 task1">
+                <h1 class="subhead">Memory Analysis of Code</h1>
+                <p>The following tests were performed on an M1 Apple Macbook Air with 8GB RAM and 256GB Storage. The IDE used for these tests is Visual Studio 2022 for Mac. The memory usage was monitored using the inbuilt profiler in Visual Studio 2022 and the results attached below are the findings of the analysis. The variables in this were No of unique propositional atoms, Height of the parse tree, Time of execution in millseconds, Peak Memory Usage(KB).</p>
+            </div>
+         
+        </div>
+        <div class="row">
+            <div class="col-lg-12 head">
+        
+                <h2>The table of recordings:</h1>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/memorystats.png" />
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 head">
+        
+                <h2>Some graphs that depict the relations between the chosen variables: </h2>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/memorycount.png" />
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-12 head"><p>This is a countplot showing the counts of the memory readings we have obtained. We can see that the range of the peak memory usage was always between 700-800KB depending on the height of the binary tree we had to store.</p></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/corrheatmapmemory.png" />
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-12 head"><p>This is a heatmap with the correlation between each of the variables. The new correlations we can notice here are between memory in KB and the other variables. We can see the very high correlation between memory and time and also the high correlation between height of the tree and time. As the readings are fewer the correlation values are higher than they would be for more readings but this still gives an idea of what the relation between each of these variables is. These correlations obtained are not surprising as the memory will have to store more struct nodes for a longer tree and thus it will take longer to traverse this tree to evaluate the truth value.</p></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 code"></div>
+            <div class="col-lg-6 task1">
+                <img class="task1-code" src="../css/memoryfindingswindows.png" />
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-12 head"><p>Attached above is a screenshot of the same memory usage test done on a Windows PC(The specs are mentioned above). We can see the inputs output and the memory usage in the screenshot.</p></div>
+        </div>
+        
+    </div>
+</body>
+</html>

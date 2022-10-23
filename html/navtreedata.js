@@ -34,6 +34,19 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
+    ["Tasks","../html pages/index.html",[["Task 1", "../html pages/task1.html",null],
+    ["Task 2", "../html pages/task2.html",null],
+    ["Task 3", "../html pages/task3.html",null],
+    ["Task 4", "../html pages/task4.html",null],
+    ["Task 5", "../html pages/task5.html",null]
+    ]
+  ],
+  ["Testing and Analysis","../html pages/index.html",[["Test Inputs", "../html pages/index.html",null],
+    ["Time analysis", "../html pages/task2.html",null],
+    ["Memory Usage", "../html pages/task3.html",null],
+
+    ]
+  ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
@@ -41,7 +54,8 @@ var NAVTREE =
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ]
       ] ]
-    ] ]
+    ] ],
+   
   ] ]
 ];
 

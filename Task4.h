@@ -1,6 +1,9 @@
 #include <iostream>
 #include "Task3.h"
 
+//                    Task 4: Compute the height of the binary tree
+
+/// A function that recursively traverses the tree until it reaches a propositional atom and starts computing the height by add to itself the max height between its left and right children. 
 int FindTreeHeight(Node* rootnode){
     if(rootnode==NULL){
         return 0;

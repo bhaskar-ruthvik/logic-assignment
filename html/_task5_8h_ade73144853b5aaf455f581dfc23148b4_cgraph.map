@@ -1,0 +1,5 @@
+<map id="FindPropositionalAtoms" name="FindPropositionalAtoms">
+<area shape="rect" id="node1" title="A function that loops through the string and checks for duplicates and adds the propositional atoms t..." alt="" coords="5,31,165,56"/>
+<area shape="rect" id="node2" href="$_task5_8h.html#a68a90ca30004e3fe855b85661cc324bf" title="A function that checks if a certain propositional atom occurs twice in a given expression." alt="" coords="218,5,291,31"/>
+<area shape="rect" id="node3" href="$_task2_8h.html#a23c8a67bbba4acbc00d3114e328d3285" title="Checking if a given character is an Operator." alt="" coords="213,55,296,80"/>
+</map>

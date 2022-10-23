@@ -1,0 +1,6 @@
+Truth Values,Height of tree,No of unique propositional atoms,Time(ms),Peak Memory Usage(KB)
+1,6,6,0.073,724
+1,7,10,0.086,736
+1,19,10,0.19,796
+1,5,3,0.06,722
+1,31,10,0.255,806

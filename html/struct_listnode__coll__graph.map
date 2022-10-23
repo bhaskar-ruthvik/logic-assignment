@@ -1,0 +1,4 @@
+<map id="Listnode&lt; T &gt;" name="Listnode&lt; T &gt;">
+<area shape="rect" id="node1" title="We create a struct node using template T so as to accomodate for linked lists with different data typ..." alt="" coords="5,93,108,119"/>
+<area shape="rect" id="node2" href="$struct_listnode.html" title="We create a struct node using template T so as to accomodate for linked lists with different data typ..." alt="" coords="5,5,108,31"/>
+</map>

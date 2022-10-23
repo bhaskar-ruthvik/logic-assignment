@@ -1,0 +1,24 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Main function that runs the LogicAssignment() function." alt="" coords="5,355,56,380"/>
+<area shape="rect" id="node2" href="$_logic_assignment_8h.html#a525bfd2222568fc3714c5c8107a367fd" title="A function that combines all the previous functions to run the tasks in the required order." alt="" coords="104,355,227,380"/>
+<area shape="rect" id="node3" href="$_task2_8h.html#a92fc5bbf933e7a3f793df46c066fd20b" title="function that uses explicit stack to add each character from the string parameter which in this case ..." alt="" coords="490,305,611,331"/>
+<area shape="rect" id="node8" href="$_task5_8h.html#a974cfe9f37f57d47da43cdcbbf50db5d" title="A function that takes in input from the user and adds the corresponding truth values of each proposit..." alt="" coords="289,404,420,429"/>
+<area shape="rect" id="node9" href="$_task5_8h.html#ac3fff3f911dc0cb573916b8c98e00f9f" title="A function that recursively goes to the propositional atom on the leftmost of the tree and starts eva..." alt="" coords="283,207,426,232"/>
+<area shape="rect" id="node13" href="$_task5_8h.html#ade73144853b5aaf455f581dfc23148b4" title="A function that loops through the string and checks for duplicates and adds the propositional atoms t..." alt="" coords="275,56,435,81"/>
+<area shape="rect" id="node15" href="$_task4_8h.html#ae2df13bce5d848e235f0d6809dd215f5" title="A function that recursively traverses the tree until it reaches a propositional atom and starts compu..." alt="" coords="300,477,409,503"/>
+<area shape="rect" id="node16" href="$_task3_8h.html#a4ba0deb243a004fb6cdd900dd5ade4e1" title="Recursive function that traverses the binary tree and prints the nodes of the tree using in&#45;order tra..." alt="" coords="295,551,414,576"/>
+<area shape="rect" id="node17" href="$_task1_8h.html#a593ac082bd25d6af7ca46b46454f6a08" title="Converting the postfix expression into prefix form of the original string by reversing the final stri..." alt="" coords="300,355,409,380"/>
+<area shape="rect" id="node4" href="$_task2_8h.html#a23c8a67bbba4acbc00d3114e328d3285" title="Checking if a given character is an Operator." alt="" coords="696,132,779,157"/>
+<area shape="rect" id="node5" href="$class_stack.html#a501d00c8712dcb7caad0c89dcabc76ef" title=" " alt="" coords="695,207,780,232"/>
+<area shape="rect" id="node6" href="$class_stack.html#a4972dd756e2e349e1e6574e4cfed4185" title=" " alt="" coords="691,256,783,281"/>
+<area shape="rect" id="node7" href="$class_stack.html#ac32e55ad7c8e3fb80390c116397d8395" title=" " alt="" coords="696,305,779,331"/>
+<area shape="rect" id="node10" href="$_task5_8h.html#ad5a436f017502b0e1c3961e0914934f1" title="A function to evaluate negation specifically." alt="" coords="489,157,612,183"/>
+<area shape="rect" id="node11" href="$_task5_8h.html#a37c56ab1c12c5e3577db4027b1a9a1d4" title="A function that takes in the truth values of two propositional atoms and the operator and computes re..." alt="" coords="483,207,619,232"/>
+<area shape="rect" id="node12" href="$_task5_8h.html#ab8b1c077ea063fbfdfafc41fd36a6f5a" title="A function to the find the truth value provided for the propositional atom given the atom." alt="" coords="517,256,585,281"/>
+<area shape="rect" id="node14" href="$_task5_8h.html#a68a90ca30004e3fe855b85661cc324bf" title="A function that checks if a certain propositional atom occurs twice in a given expression." alt="" coords="514,5,587,31"/>
+<area shape="rect" id="node18" href="$_task1_8h.html#abbc02306ae3b82787cd37e5761a532c9" title=" " alt="" coords="493,355,609,380"/>
+<area shape="rect" id="node22" href="$_task1_8h.html#a44b59563f59a31e6566d828ff7478069" title="Reversing the string that was input by the user." alt="" coords="667,503,807,528"/>
+<area shape="rect" id="node19" href="$_task1_8h.html#a4d09810f31d7aeac2b271c79cbb9b36f" title="Declaring the precedence of operators by which conversions take place." alt="" coords="673,355,801,380"/>
+<area shape="rect" id="node20" href="$class_stack.html#aba249558cb22b37512c83b62651a1708" title=" " alt="" coords="687,404,787,429"/>
+<area shape="rect" id="node21" href="$_task1_8h.html#a09e2fdf5cb40bfccb9fe1e279bc0c82b" title="Removing parentheses as they lose significance in infix,prefix,postfix forms." alt="" coords="667,453,808,479"/>
+</map>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Logic Assignment</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Lora:wght@700&family=Montserrat:wght@700&family=Open+Sans:wght@400;800&family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+
+    <div class="container-fluid content">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Assignment Documentation</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Documentation and Analysis
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../index.html">Doxygen</a></li>
+              <li><a class="dropdown-item" href="Time.html">Time analysis</a></li>
+              <li><a class="dropdown-item" href="memory.html">Memory Analysis</a></li>
+            </ul>
+          </li>  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Testing Outputs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Carousel">Test Case 1</a></li>
+              <li><a class="dropdown-item" href="#Carousel">Test Case 2</a></li>
+              
+              <li><a class="dropdown-item" href="#Carousel">Test Case 3</a></li>
+            </ul>
+          </li>  
+          <li class="nav-item-dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tasks
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="task1.html" target="_blank">Task 1</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="task2.html" target="_blank">Task 2</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="task3.html" target="_blank">Task 3</a>
+        </li>
+            <li>
+                <a class="dropdown-item" href="task4.html" target="_blank">Task 4</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="task5.html" target="_blank">Task 5</a>
+            </li>
+            </ul>
+          </li>
+            
+        </ul>
+     </div>
+    </nav>
+      <div class="row main"> 
+        <div class="col-lg-6 heading main">
+          <h1 class="logic-head">Propositional Logic</h1>
+      <p>A coordinated effort by: 
+        2021A7PS0050H(Siddhant Srinivas),
+        2021A7PS1345H(Bhaskar Ruthvik Bikkina),
+        2021A7PS2652H(Soumil Ray).
+      </p>
+      
+
+        </div>
+        <div class="col-lg-6 code-snip main"> <img class="intro-code" src="../css/carbon.png" /></div>
+      </div>
+      <div class="row carousel" id="Carousel">
+        <div class="col-lg-12 head">
+        
+          <h1 class="categories">Testing Correctness of Outputs</h1>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="Input1">
+              <div id="Test1" class="col-lg-12 sub">
+                <h2 class="">Test Input 1:</h2>
+              </div>
+              <div class="row testcase">
+                <div class="col-lg-6 img">
+                  <div class="img-bg">
+                    <img class="analysis" src="../css/2022-10-21.png">
+                  </div>
+                  
+                </div>
+                <div class="col-lg-6 test">
+                  <h3>Sub-case 1:</h3>
+                  <p>
+                    The first input test case tests all the operators and also repetition of operators. The given combination of inputs here is: (p,q,r,s) = (1,0,1,1). The expression in this case evaluates to 0. The time taken for the program to execute from the time the characters have been input to the end of the print statement is 2.018 millseconds.
+                  </p>
+                </div>
+               </div>
+               <div class="row testcase">
+                <div class="col-lg-6 left">
+                  <h3>Sub-case 2:</h3>
+                  <p>
+                    The given combination of inputs here is: (p,q,r,s) = (1,1,1,1). The expression in this case evalutes to 1. The time taken for the program to execute is 3.987 milliseconds. Evidently, the time taken for the program to execute is much larger than the time taken for the evaluation with the truth values given in the first case.
+                  </p>
+                </div>
+                <div class="col-lg-6 right img">
+                  <div class="img-bg">
+                    <img class="analysis" src="../css/ip1op2.png">
+                  </div>
+                  
+                </div></div>
+                <div class="row testcase">
+                  <div class="col-lg-6 img">
+                    <div class="img-bg">
+                      <img class="analysis" src="../css/ip1op3.png">
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-6 test">
+                    <h3>Sub-case 3:</h3>
+                    <p>
+                      The given combination of inputs here is: (p,q,r,s) = (0,0,0,0). The expression in this case evaluates to 1. The time taken for the program to execute is 2.332 milliseconds. Out of all the cases tested, we can notice that the program takes anywhere between 2-4 milliseconds to execute with a mean execution time of 2.779 millseconds.
+                    </p>
+                  </div>
+                 </div>
+                </div>
+                <div class="carousel-item" id="Input2">
+                  <div id="Test1" class="col-lg-12 sub">
+                    <h2 class="">Test Input 2:</h2>
+                  </div>
+                  <div class="row testcase">
+                    <div class="col-lg-6 img">
+                      <div class="img-bg">
+                        <img class="analysis" src="../css/ip2op1.png">
+                      </div>
+                      
+                    </div>
+                    <div class="col-lg-6 test">
+                      <h3>Sub-case 1:</h3>
+                      <p>
+                        The first input test case tests all the operators and also repetition of operators. The given combination of inputs here is: (p,q,r,s,t,u) = (1,1,1,0,0,0). The expression in this case evaluates to 0. The time taken for the program to execute from the time the characters have been input to the end of the print statement is 3.492 millseconds.
+                      </p>
+                    </div>
+                   </div>
+                   <div class="row testcase">
+                    <div class="col-lg-6 left">
+                      <h3>Sub-case 2:</h3>
+                      <p>
+                        The given combination of inputs here is: (p,q,r,s,t,u) = (1,1,1,1,1,1). The expression in this case evalutes to 1. The time taken for the program to execute is 5.000 milliseconds. Evidently, the time taken for the program to execute is much larger than the time taken for the evaluation with the truth values given in the first case.
+                      </p>
+                    </div>
+                    <div class="col-lg-6 right img">
+                      <div class="img-bg">
+                        <img class="analysis" src="../css/ip2op2.png">
+                      </div>
+                      
+                    </div>
+                    
+                   </div>
+                   <div class="row testcase">
+                    <div class="col-lg-6 img">
+                      <div class="img-bg">
+                        <img class="analysis" src="../css/ip2op3.png">
+                      </div>
+                      
+                    </div>
+                    <div class="col-lg-6 test">
+                      <h3>Sub-case 3:</h3>
+                      <p>
+                        The given combination of inputs here is: (p,q,r,s,t,u) = (0,0,0,0,0,0). The expression in this case evaluates to 1. The time taken for the program to execute is 5.997 milliseconds. Out of all the cases tested, we can notice that the program takes anywhere between 3-6 milliseconds to execute with a mean execution time of 4.830 millseconds.
+                      </p>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="carousel-item" id="Input3">
+                  <div id="Test1" class="col-lg-12 sub">
+                    <h2 class="">Test Input 3:</h2>
+                  </div>
+                  <div class="row testcase">
+                    <div class="col-lg-6 img">
+                      <div class="img-bg">
+                        <img class="analysis" src="../css/ip3op1.png">
+                      </div>
+                      
+                    </div>
+                    <div class="col-lg-6 test">
+                      <h3>Sub-case 1:</h3>
+                      <p>
+                        The first input test case tests all the operators and also repetition of operators. The given combination of inputs here is: (p,q,r) = (1,1,0). The expression in this case evaluates to 1. The time taken for the program to execute from the time the characters have been input to the end of the print statement is 4.999 millseconds.
+                      </p>
+                    </div>
+                   </div>
+                   <div class="row testcase">
+                    <div class="col-lg-6 left">
+                      <h3>Sub-case 2:</h3>
+                      <p>
+                        The given combination of inputs here is: (p,q,r) = (1,1,1). The expression in this case evalutes to 0. The time taken for the program to execute is 4.991 milliseconds. In contrast to the previous cases, here the sub-case where all inputs are 1 takes almost the same time as the other 2 sub-cases.
+                      </p>
+                    </div>
+                    <div class="col-lg-6 right img">
+                      <div class="img-bg">
+                        <img class="analysis" src="../css/ip3op2.png">
+                      </div>
+                      
+                    </div>
+                    
+                   </div>
+                   <div class="row testcase">
+                    <div class="col-lg-6 img">
+                      <div class="img-bg">
+                        <img class="analysis" src="../css/ip3op3.png">
+                      </div>
+                      
+                    </div>
+                    <div class="col-lg-6 test">
+                      <h3>Sub-case 3:</h3>
+                      <p>
+                        The given combination of inputs here is: (p,q,r) = (0,0,0). The expression in this case evaluates to 1. The time taken for the program to execute is 4.996 milliseconds. Out of all the cases tested, we can notice that the program takes anywhere between 4.9-5 milliseconds to execute with a mean execution time of 4.996 millseconds. Also note that the variance is very very small comparatively.
+                      </p>
+                    </div>
+                   </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div id="Test1" class="col-lg-12 sub">
+                      <h2 class="">Tree Outputs</h2>
+                    </div>
+                    <div class="row testcase">
+                      <div class="col-lg-6 img">
+
+                          <img class="analysis" src="../css/op1.png">
+                      
+                      </div>
+                      <div class="col-lg-6 img">
+                        
+                          <img class="analysis" src="../css/op2.png">
+                     
+                    </div>
+                    <div class="row testcase">
+                      <div class="col-lg-6 img">
+                        
+                          <img class="analysis" src="../css/op3.png">
+                     
+                    </div>
+                    <div class="col-lg-6 img">
+                        
+                      <p>The following are visualisations of the binary tree where "|__" denotes the right child and "|--" denote the left child. </p>
+                 
+                </div>
+                  
+                        
+                      </div>
+                     </div>
+                     </div>
+                    
+                    
+                  <button class="carousel-control-prev test prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next test next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                </div>
+                <!-- <div class="row">
+                  <div class="col-lg-12 sub">
+                    <h2>Memory Usage</h2>
+                  </div>
+                  <div class="col-lg-12">
+                    <p class="memory">The memory usage for the program has been tested for all the cases. Due to character inputs accounting to very few bytes the total memory usage has been similar for all the cases. The first column represents the name of the process which in this case is the main.exe file.The second column represents the CPU usage and the third represents the Memory Usage in MB.</p>
+                  </div>
+                  <div class="col-lg-3">
+
+                  </div>
+                  <div class="col-lg-6 memory">
+                    <img class="memory" src="../css/cpu+memusage.png">
+                  </div>
+                  <div class="col-lg-3">
+
+                  </div>
+                </div> -->
+                <div class="row">
+                  <div class="col-lg-12 head">
+                    <h1 class="categories">Tasks</h1>
+                  </div>
+                <div id="Tasks" class="row carousel">
+                  <div class="col">
+                    <div id="carouselExampleControls" class="carousel slide"  data-bs-interval="false">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        
+                          <h1 class="carousel-head">Task 1</h1>
+                          <p class="carousel-text">Write a function to convert the infix propositional logic expression into a prefix propositional logic expression.</p>
+                          <a href="task1.html"><button type="button" class="btn btn-outline-info">>>Task 1</button></a>
+                        </div>
+                        <div class="carousel-item">
+                          <h1 class="carousel-head">Task 2</h1>
+                          <p class="carousel-text">Write a function to convert the prefix expression into a rooted binary parse tree.</p>
+                          <a href="task2.html"><button type="button" class="btn btn-outline-info">>>Task 2</button></a>
+                        </div>
+                        <div class="carousel-item">
+                          <h1 class="carousel-head">Task 3</h1>
+                          
+                          <p class="carousel-text">Write a function to traverse the parse tree to output the infix expression back by in-order traversal of the parse tree.</p>
+                          <a href="task3.html"><button type="button" class="btn btn-outline-info">>>Task 3</button></a>
+                        </div>
+                        <div class="carousel-item">
+                          <h1 class="carousel-head">Task 4</h1>
+                          
+                          <p class="carousel-text">Write a function to compute the height of a parse tree.</p>
+                          <a href="task4.html"><button type="button" class="btn btn-outline-info">>>Task 4</button></a>
+                        </div>
+                        <div class="carousel-item">
+                          <h1 class="carousel-head">Task 5</h1>
+                          
+                          <p class="carousel-text">Write a function to evaluate the truth value of a propositional logic formula, given the truth values of each propositional atom by traversing the tree in a bottom up fashion.</p>
+                          <a href="task5.html"><button type="button" class="btn btn-outline-info">>>Task 5</button></a>          
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+               
+          
+              </div>
+            </div>
+
+  </body>
+</html>

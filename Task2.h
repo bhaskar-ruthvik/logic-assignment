@@ -84,10 +84,3 @@ void AddToBinaryTree(std::string str){
 
 
 
-// void printBT(const Node* rootnode)
-// {
-//     printBT("", rootnode, false);    
-// }
-
-// // pass the root node of your binary tree
-// printBT(root);
